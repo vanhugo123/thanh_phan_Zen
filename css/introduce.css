@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    font-size: 20px;
+}
+.poster{
+    display: block;
+    position: relative;
+    /* background-image: url(/thanh_phan_ZenLife/img/canh_nha.jpg); */
+    /* background-size: cover; */
+    width: 100%;
+    aspect-ratio: 15/7;
+    background-image: url(/thanh_phan_ZenLife/img/canh_nha.jpg);
+    background-size: cover;
+}
+.galaxy{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    filter: blur(250px);
+    background-color: aliceblue;
+    background-size: cover;
+}
+.slogan{
+    position: absolute;
+    left: 60%;
+    top: 14%;
+    max-width:500px;
+    padding: 0 10px;
+    font-size: 30px;
+    text-align: left;
+    color: rgb(183, 98, 13);
+    font-weight: 600;
+    opacity: 2;
+}
+.content{
+    position: absolute;
+    left: 53%;
+    top: 10%;
+    height: 20vw;
+    width: 80vh;
+    max-width: 500px;
+    filter: blur(100px);
+    background-color: rgb(253, 251, 228);
+    opacity: 1;
+}
+.brand-name{
+    font-family: 'Gill Sans';
+    font-size: 65px;
+    font-style: italic;
+    color: rgb(222, 146, 24);
+}
+.dang_ky{
+    position: absolute;
+    text-align: center;
+    border: 1px solid rgb(247, 243, 235);
+    color: rgb(183, 98, 13);;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-family: 'Gill Sans';
+    font-size: 20px;
+    background-color: rgb(235, 227, 178);
+}
+.dang_ky:hover{
+    box-shadow: 3px 3px rgb(183, 98, 13);; 
+}
+@media(max-width: 1024px){
+    body{
+        font-size: 15px;
+    }
+    .poster {
+        display: block;
+        position: relative;
+        background-image: url(/thanh_phan_ZenLife/img/canh_nha.jpg);
+        background-size: cover;
+        aspect-ratio:9/6 ;
+    }
+    .slogan{
+        left: 53%;
+        font-size: 20px;
+        max-width: 250px;
+        padding: 0 0 0 10px;
+        opacity: 2;
+        color: rgb(3, 119, 123);
+    }
+    .brand-name{
+        font-size: 50px;
+        color: rgb(3, 137, 101);
+    }
+    .content {
+        position: absolute;
+        left: 53%;
+        top: 11%;
+        height: 40vw;
+        width: 40vh;
+        max-width: 500px;
+        filter: blur(100px);
+        background-color: rgb(248, 242, 185);
+        opacity: 1;
+    }
+    .dang_ky {
+        position: absolute;
+        text-align: center;
+        right: 20%;
+        color: rgb(3, 119, 123);
+        font-size: 15px;
+        border-radius: 5px;
+        padding: 5px 10px;
+        background-color: rgb(178, 235, 180);
+    }
+    .dang_ky:hover {
+        box-shadow: 3px 3px rgba(3, 119, 123, 0.732);
+    }
+}
